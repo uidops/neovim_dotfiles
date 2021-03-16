@@ -15,4 +15,4 @@ $ nvim +PlugInstall
 ```
 
 ## screenshot
-<div align="center"> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.screenshot.png" /> <br /> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.screenshot1.png" /> </div>
+<div align="center"> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.screenshot1.png" />  <br /> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.screenshot.png" />  </div>
