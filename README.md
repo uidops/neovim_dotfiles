@@ -2,7 +2,7 @@
 
 ## requirements
 ``` text
-neovim - https://github.com/neovim/neovim
+neovim   - https://github.com/neovim/neovim
 vim-plug - https://github.com/junegunn/vim-plug
 ```
 
