@@ -1,5 +1,4 @@
 <div align="center"> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.screenshot.png"/> </div>
-# Neovim configuration
 
 ## requirements
 ``` text
