@@ -1,3 +1,5 @@
+<div align="center"> <img src="https://github.com/siruidops/neovim_dotfiles/raw/main/.text.gif"/> </div>
+
 ## requirements
 ``` text
 neovim   - https://github.com/neovim/neovim
