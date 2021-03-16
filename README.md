@@ -1,5 +1,5 @@
-<div align="center> <img src="./.screenshot.png"/> </div>
-## Neovim configuration
+<div align="center> <img src=".screenshot.png"/> </div>
+# Neovim configuration
 
 ## requirements
 ``` text
