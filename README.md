@@ -9,7 +9,7 @@ vim-plug - https://github.com/junegunn/vim-plug
 
 ## install
 
-```text
-git clone https://github.com/siruidops/neovim_dotfiles ~/.config/nvim/
-nvim +PlugInstall
+```bash
+$ git clone https://github.com/siruidops/neovim_dotfiles ~/.config/nvim/
+$ nvim +PlugInstall
 ```
