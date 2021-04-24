@@ -1,41 +1,36 @@
 call plug#begin('~/.config/nvim/plugged')
-
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
-
-	Plug 'dikiaap/minimalist'
-	Plug 'mhinz/vim-startify'
-
-	Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-	Plug 'itchyny/vim-gitbranch'
-
-	Plug 'ryanoasis/vim-devicons'
-
-	Plug 'godlygeek/tabular'
- 	Plug 'plasticboy/vim-markdown'
- 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-	
-	Plug 'jiangmiao/auto-pairs'
-	Plug 'dense-analysis/ale'
-
-	Plug 'jmcantrell/vim-virtualenv'
-	
-	Plug 'vim-scripts/indentpython.vim'
-	Plug 'davidhalter/jedi-vim'
-	Plug 'zxqfl/tabnine-vim'
-
-	Plug 'frazrepo/vim-rainbow'
-	
-	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-	Plug 'junegunn/fzf.vim'
-
-	Plug 'junegunn/vim-easy-align'
-
-	Plug 'sheerun/vim-polyglot'
-	Plug 'https://github.com/McSinyx/vim-octave.git', {'for': 'octave'}
-	
+    Plug 'tpope/vim-fugitive'
+    Plug 'w0rp/ale'
+    Plug 'rhysd/vim-clang-format'
+    Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+    Plug 'tpope/vim-surround'
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'octol/vim-cpp-enhanced-highlight'
+    Plug 'vim-scripts/DfrankUtil'
+    Plug 'vim-scripts/vimprj'
+    Plug 'vim-scripts/indexer.tar.gz'
+    Plug 'easymotion/vim-easymotion'
+    Plug 'vim-scripts/a.vim'
+    Plug 'nanotech/jellybeans.vim'
+    Plug 'chriskempson/base16-vim'
+    Plug 'morhetz/gruvbox'
+    Plug 'w0ng/vim-hybrid'
+    Plug 'tpope/vim-vividchalk'
+    Plug 'lokaltog/vim-distinguished'
+    Plug 'tikhomirov/vim-glsl'
+    Plug 'drewtempelmeyer/palenight.vim'
+    Plug 'vim-scripts/indentpython.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'mhinz/vim-startify'
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown'
+    Plug 'iamcco/markdown-preview.nvim', {'do': {-> mkdp#util#install()}, 'for': ['markdown', 'vim-plug']}
+    Plug 'frazrepo/vim-rainbow'
+    Plug 'kaicataldo/material.vim', {'branch': 'main'}
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'ObserverOfTime/coloresque.vim'
+	Plug 'rust-lang/rust.vim'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
-	Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-
+    Plug 'chrisbra/Colorizer'
 call plug#end()
