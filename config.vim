@@ -42,6 +42,9 @@ syntax on
 
 set encoding=UTF-8
 let g:airline_theme = "base16"
+let g:airline_left_sep='〻'
+let g:airline_right_sep='|'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:material_theme_style = "ocean"
 colorscheme material
 
@@ -336,6 +339,8 @@ map <leader><leader>k <Plug>(easymotion-j)
 map <leader><leader>l <Plug>(easymotion-k)
 map <leader><leader>č <Plug>(easymotion-lineforward)
 nnoremap <C-e> <C-]>
+
+nnoremap <C-t> :tabnew<CR>
 
 let g:indexer_disableCtagsWarning = 1
 

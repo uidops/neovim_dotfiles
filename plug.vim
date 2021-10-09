@@ -23,4 +23,5 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'rust-lang/rust.vim'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'chrisbra/Colorizer'
+    Plug 'wsdjeg/vim-assembly'
 call plug#end()
